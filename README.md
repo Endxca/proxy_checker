@@ -5,7 +5,7 @@
 sudo su
 apt update -y
 apt upgrade -y
-git clone [https://github.com/Endxca/proxy_checker.git](https://github.com/Endxca/proxy_checker.git)
+git clone https://github.com/Endxca/proxy_checker.git
 cd proxy_checker
 chmod +x check.sh
 ./check.sh

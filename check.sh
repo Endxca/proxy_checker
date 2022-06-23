@@ -6,7 +6,7 @@ works=()
 nope=()
 echo "[*] Testing proxys..."
 while IFS=$' \t\r\n' read -r line; do
-        test=$(timeout 2 curl -x socks5://"$line" http://1.1.1.1)
+        test=$(timeout 2 curl -x "$line" http://1.1.1.1)
         if [ "${#test}" -gt 0 ] ; then
                 works+=("$line")
         else

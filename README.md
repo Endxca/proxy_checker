@@ -7,3 +7,7 @@ cd proxy_checker
 chmod +x check.sh
 ./check.sh
 ```
+##TODO:
+[] Detect what type of proxy
+[] use old not_proxy.txt so It don't test two times the same proxy
+[X] Be cool

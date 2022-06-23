@@ -7,6 +7,6 @@ apt update -y
 apt upgrade -y
 git clone https://github.com/Endxca/proxy_checker.git
 cd proxy_checker
-chmod +x proxy_checker
-./proxy_checker
+chmod +x check.sh
+./check.sh
 ```

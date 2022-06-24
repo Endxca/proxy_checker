@@ -10,7 +10,7 @@ chmod +x check.sh
 ## TODO:
 - [X] Detect what type of proxy (don't really need to test for it)
 - [] use old not_proxy.txt so It don't test two times the same proxy
-- [X] Be cool
+- [X] Faster using parallel
 
 
 Please Use my proxy scraper to use this, and take the raw proxy list not the json :)
